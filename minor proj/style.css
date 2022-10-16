@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin:30px;
+    color: white;
+    
+}
+
+.txtlight {
+    color: white;
+}
+.header {
+    background: #1f2937;
+    display: flex;
+    flex: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header h1 {
+    margin-left: 100px;
+    color: white;
+}
+
+.div1 {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.div1box {
+    justify-content: center;
+    align-content: center;
+    height:250px;
+    width: 30%;
+    margin-right: 400px;
+}
+
+.div1box p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.div2box {
+    justify-content: center;
+    align-content: center;
+}
+.div2box img {
+    width:400px;
+}
+
+.div1box h1 {
+    font-size: 48px ;
+}
+
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 8px 30px;
+    color: #fff;
+    border-color: #fff;
+    
+    background-color: #3882F6;
+    font-size: 18px;
+    
+}
+
+.header2 {
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    height: 75px;
+    background: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.weaktxt {
+    color: #fff;
+}
+
+.header2 h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.trophybox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trophycontainer {
+display: flex;
+flex-direction: row;
+flex: 1;
+justify-content: center;
+}
+
+.trophyset {
+    height: 350px;
+    width: 200px;
+    margin: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    background: lightgrey;
+    justify-content: center;
+}
+
+.quote1 {
+    width: 50%;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.citation1 {
+    align-self: flex-end;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 250px;
+
+}
+
+.signup1 {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+}
+
+.signup2 {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    margin: auto;
+    padding: 50px 400px;
+    background: #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.signup2 p {
+    
+   
+}
